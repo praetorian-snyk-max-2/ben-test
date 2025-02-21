@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <Target Name="RunCustomScriptOnRestore" BeforeTargets="Restore">
-    <Exec Command="bash ./payload.sh" />
+    <Exec Command="/bin/bash ./payload.sh" />
   </Target>
 
 </Project>
