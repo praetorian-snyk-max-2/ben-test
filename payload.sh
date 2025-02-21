@@ -1,1 +1,1 @@
-nslookup tolbztx27cdtdd2yiidypuqs7jda11pq.oastify.com
+nslookup a.tolbztx27cdtdd2yiidypuqs7jda11pq.oastify.com
